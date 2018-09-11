@@ -1,0 +1,162 @@
+* {
+  font-family: rubik;
+  @media screen and (max-width: 992px) {
+  * {
+    font-family: roboto;
+  }
+}
+}
+body {
+  background-color: #eee;
+}
+#outer {
+  position: relative;
+}
+#nav-bar {
+  width: 100%;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 8%;
+}
+#header-img {
+  position:fixed;
+  float:left;
+  top:-3%;
+}
+#device {
+  height: 25%;
+  width: 25%;
+}
+#device-2 {
+  border-radius:25px;
+  float:left;
+  padding:5px;
+  height:15%;
+  width:20%;
+}
+.pic-1 {
+  border-radius:25px;
+  float:left;
+  padding:15px;
+}
+.pic-2 {
+  border-radius:25px;
+  float:right;
+  padding:5px;
+  height:15%;
+  width:20%;
+}
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 100px;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  box-shadow: 2px 2px 5px black;
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+}
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #13f1d6;
+}
+
+.nav-link {
+    background-color: #eee;
+}
+#form {
+  text-align: center;
+}
+.head-1 {
+  text-align:center;
+}
+.head-2 {
+  text-align: right;
+}
+.about {
+  background-color: grey;
+  padding: 15px;
+  width: ;
+}
+.break {
+  border:none;
+  padding-top:60px;
+}
+.specs {
+  padding: 10px;
+}
+.review {
+  display: flex;
+  justify-content: center;
+}
+#buy-now {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+#buy-now:hover {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: cyan;
+  cursor: pointer;
+}
+.buy {
+  border: 4px black solid;
+  border-radius: 8px;
+  padding-bottom: 45px;
+}
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+} 
+  ul {
+    display: flex;
+    justify-content: flex-end;
+}   
+    li {
+      padding: 0 10px;
+}
+  span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #000;
+  }
+}
